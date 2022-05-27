@@ -16,11 +16,11 @@
 int main(int argc, char* argv[])
 {
     long iterations = 1000000000;
-    int pid;                       //holds process's rank id
-    double x,y;                     //x,y value for the random coordinate
-    int i, count=0;                 //Count holds all the number of how many good coordinates
-    double z;                       //Used to check if x^2+y^2<=1
-    double pi;                      //holds approx value of pi
+    int pid;                       
+    double x,y;                     
+    int i, count=0;                 
+    double z;                       
+    double pi;                      
     int nodenum;
     long iterPerNode;
     double start, end;
